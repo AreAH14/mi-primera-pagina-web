@@ -1,14 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ejemplo de HTML y CSS</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Mi Portafolio Personal</title>
+  <style>
+    /* Estilos globales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Estilos para el encabezado */
+    header {
+      background-color:#F6FF00;
+      color: #080404;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    /* Estilos para el contenido principal */
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    main img {
+      width: 150px; /* Ajusta el ancho de la imagen */
+      height: 150px; /* La altura se ajustará proporcionalmente */
+      border-radius: 50%;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    
+    p {
+      font-size: 16px;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    /* Estilos para el pie de página */
+    footer {
+      background-color: #FF00A9;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bienvenido a mi página web</h1>
-  <p>Esta es una página de ejemplo.</p>
-  <div class="caja">
-    <p>¡Aquí hay una caja con estilo!</p>
-  </div>
+  <header>
+    <h1>ARELY AMADOR HERNANDEZ</h1>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Sobre mí</h2>
+      <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y29tcHV0YWRvcmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="Logo">
+      <p>[Tu biografía]</p>
+    </section>
+    
+    <section>
+      <h2>Experiencia</h2>
+      <p>[Tu experiencia laboral]</p>
+    </section>
+    
+    <section>
+      <h2>Proyectos</h2>
+      <p>[Tus proyectos destacados]</p>
+    </section>
+    
+    <section>
+      <h2>Habilidades</h2>
+      <ul>
+        <li>[Habilidad 1]</li>
+        <li>[Habilidad 2]</li>
+        <li>[Habilidad 3]</li>
+        <!-- Agrega más habilidades según sea necesario -->
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Contacto</h2>
+      <p>Puedes contactarme en [tu dirección de correo electrónico] o a través de mis perfiles en [redes sociales].</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Derechos de autor &copy; [Tu Nombre] - Año</p>
+  </footer>
 </body>
 </html>
